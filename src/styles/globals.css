@@ -34,9 +34,7 @@ body {
   background-color: var(--container-color);
   display: flex;
   width: 100%;
-  /* justify-content: center;
-  align-items: center;
-  align-content: center; */
+  color: var(--text-color);
 }
 
 .nav-bar {
@@ -44,4 +42,24 @@ body {
 }
 .nav-bar:hover {
   background-color: var(--nav-hover-color);
+}
+
+
+.main-container{
+  background-color: var(--bg-color);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 100%;
+  min-height: 100vh; 
+}
+.media-block {
+  background-color: var(--container-color);
+  display: flex;
+  border-radius: 25px;
+  overflow: hidden;
+  color: var(--text-color);
+  /* Just added under */
+  min-height: 0; 
+  
 }
